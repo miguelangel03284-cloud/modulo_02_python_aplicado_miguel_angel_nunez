@@ -64,4 +64,4 @@ print(promedio_edad_por_clase)
 promedio_edad_por_clase = df.groupby("Pclass")["Survived"].mean()
 print(promedio_edad_por_clase.round(3))
 
-# df.to_csv("titanic_limpio", index=False)
+df.to_csv("titanic_limpio", index=False)
