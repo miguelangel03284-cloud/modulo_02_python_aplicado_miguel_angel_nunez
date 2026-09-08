@@ -57,4 +57,5 @@ promedio_Ganacia_con_LeadStudio = df_filtrado.groupby("LeadStudio")["Ganancia"].
 print(promedio_Ganacia_con_LeadStudio.head())
 
 
+df_filtrado.to_csv("hollywood_limpio.csv")
 
